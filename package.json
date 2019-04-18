@@ -1,0 +1,24 @@
+{
+  "name": "npm-version-suffix",
+  "version": "0.1.0-rc.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iannbing/npm-version-suffix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iannbing/npm-version-suffix/issues"
+  },
+  "homepage": "https://github.com/iannbing/npm-version-suffix#readme",
+  "dependencies": {
+    "escape-string-regexp": "^2.0.0",
+    "execa": "^1.0.0",
+    "replace-in-file": "^3.4.4"
+  }
+}
