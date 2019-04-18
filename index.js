@@ -1,7 +1,7 @@
 'use strict';
 
-const addSuffix = require('./add-suffix');
-const removeSuffix = require('./remove-suffix');
+const addSuffix = require('./lib/add-suffix');
+const removeSuffix = require('./lib/remove-suffix');
 
 module.exports = {
   addSuffix,
