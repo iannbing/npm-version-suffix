@@ -1,11 +1,8 @@
 {
   "name": "npm-version-suffix",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iannbing/npm-version-suffix.git"
