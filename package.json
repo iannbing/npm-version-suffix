@@ -1,14 +1,22 @@
 {
   "name": "npm-version-suffix",
   "version": "0.1.0",
-  "description": "",
+  "description": "A tiny helper that automatically add or remove suffix to the version in the `package.json` of your NPM package",
+  "keywords": [
+    "npm",
+    "publish",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "Semantic versioning",
+    "helper"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iannbing/npm-version-suffix.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Huang-Ming Chang <huang.m.chang@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iannbing/npm-version-suffix/issues"
   },
