@@ -18,8 +18,8 @@ This tool can automatically add suffix to the version in the `package.json`. The
 {
     "version": "1.2.3",
     "scripts": {
-        "add-suffix": "cross-env SUFFIX=-beta. node ./node_modules/npm-version-suffix/run-add-suffix.js",
-        "remove-suffix": "cross-env SUFFIX=-beta. node ./node_modules/npm-version-suffix/run-remove-suffix.js"
+        "add-suffix": "cross-env SUFFIX=beta node ./node_modules/npm-version-suffix/run-add-suffix.js",
+        "remove-suffix": "cross-env SUFFIX=beta node ./node_modules/npm-version-suffix/run-remove-suffix.js"
     }
 }
 ```
@@ -46,5 +46,7 @@ const { addSuffix, removeSuffix } = require('npm-version-suffix');
 // by defualt, the suffix is "-rc."
 addSuffix();
 // You can assing your own suffix.
-addSuffix('-beta.');
+addSuffix('alpha');  // 1.2.3-alpha.1
+// It will remove unnecessary leading dashes and trailing dots
+addSuffix('--beta..);   // still "1.2.3-beta.3"
 ```

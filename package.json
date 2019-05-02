@@ -1,6 +1,6 @@
 {
   "name": "npm-version-suffix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A tiny helper that automatically add or remove suffix to the version in the `package.json` of your NPM package",
   "keywords": [
     "npm",
@@ -21,6 +21,9 @@
     "url": "https://github.com/iannbing/npm-version-suffix/issues"
   },
   "homepage": "https://github.com/iannbing/npm-version-suffix#readme",
+  "scripts": {
+    "publish:dev": "npm publish --tag beta"
+  },
   "dependencies": {
     "escape-string-regexp": "^2.0.0",
     "execa": "^1.0.0",
